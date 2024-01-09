@@ -1,0 +1,1068 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body
+{
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #efefef;
+}
+
+/* navigation Bar Starts */
+
+nav
+{
+    background-color: white;
+    padding: 20px 10px;
+    position: fixed;
+    width: 100%;
+}
+ 
+nav ul
+{
+    display: inline;
+    margin-left: 200px;
+}
+
+nav ul li
+{
+    display: inline;
+}
+
+
+nav ul li a 
+{
+    margin-left: 50px;
+    text-decoration: none;
+    color: grey;
+}
+
+nav ul li a:hover
+{
+    color: rgb(52,152, 219);
+}
+
+.brand-logo
+{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'oswald', sans-serif;
+    margin: 60px;
+}
+
+.nav-btn
+{
+ background-color: rgb(52,152, 219);
+ border-radius: 29px;
+ color:white;
+ padding: 13px 31px;
+ margin-bottom: 5px;
+}
+
+.nav-btn:hover
+{
+background-color: rgb(102, 163, 204);
+color: white;
+}
+    
+
+
+/* Navigation bar ends */
+
+/* Banner of Vesperr site starts */
+ 
+.banner
+{
+    background-color: white;
+    padding: 20px;
+}
+
+.banner-content, .banner-image
+{
+   display: inline-block;
+   width: 530px;
+   margin-left: 90px ; 
+   margin-top: 0px;
+}
+
+.banner-image img
+{
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.banner-content h1
+{
+    font-size: 50px;
+}
+
+.banner-content p
+{
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.banner-content button
+{
+    border: 2px solid rgb(52,152, 219);
+    color: rgb(52,152, 219);
+    border-radius: 30px;
+    padding: 10px 25px;
+    background-color: transparent;
+    transition: background-color 0.5s, color 1s;
+}
+
+.banner-content button:hover
+{
+    background-color:rgb(52,152, 219);
+    color: white;
+}
+
+.banner-animation 
+{
+    animation-duration: 10s;
+}
+
+/* banner of Vesperr site ends */
+
+/* logos starts */
+
+.logos
+{
+    background-color:#f3f9fd ;
+ 
+    
+}
+
+.logo-image
+{
+    /* border: 2px solid red; */
+    width: 175px;
+    height: 85px;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.logo-image img
+{
+    width: 45%;
+    height: 45%;
+    margin: 25px 45px;
+    filter: grayscale(100%);
+}
+
+.logo-image img:hover
+{
+    filter: none;
+}
+/* logos ends */
+
+/* aboutus starts */
+
+.aboutus
+{
+ 
+    margin: 50px;
+
+}
+
+.aboutus-content
+{
+    width: 678px;
+    padding: 18px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.aboutus h1
+{
+    text-align: center;
+}
+
+.aboutus p, .aboutus li
+{
+    margin-left: 39px;
+    margin-top: 10px;
+    
+}
+    
+
+
+.aboutus p
+{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+
+.aboutus li
+{
+    margin-bottom: 13px;
+    list-style: none;
+}
+
+.aboutus-content button
+{
+    color: #3498db;
+    padding: 12px 32px;
+    border-radius: 50px;
+    /* border: 2px solid #3498db; */
+    font-size: 14px;
+    background-color: transparent;
+    transition: background-color 1s, color 0.6s;
+    margin-left: 20px;
+    
+}
+
+.aboutus-content button:hover
+{
+    color: white;
+    background-color: #3498db;
+
+}
+
+.aboutus-content button
+{
+    border: 2px solid  #3498db;
+}
+
+/* aboutus ends */
+
+
+
+ /* Bg image starts  */
+
+ /* .bg-image .image
+ {
+   
+
+
+ } */
+
+.bg-image .image 
+{
+    width: 90%;
+    margin: 76px 167px;
+    
+}
+
+.bg-cards
+{
+    width:  599px;
+    /* border: red solid 2px; */
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    display: inline-block;
+
+}
+
+.bg-image-content
+{
+   
+    margin-left: 189px;
+}
+
+.bg-iconcontent
+{
+  /* border: 2px red solid;  */
+
+}
+
+.bg-icon
+{
+    margin: 10px 10px;
+    /* border: springgreen 2px solid; */
+    width: 50px;
+} */
+
+.bg-image-content
+{
+    /* border: solid red 2px; */
+    width:500px ;
+
+}
+
+.bg-image-content .bg-cards 
+{
+    width: 500px;
+   
+}
+
+
+
+
+
+
+ /* Bg image image  */
+
+ /* services starts */
+
+ .services
+ {
+     margin: 50px;
+ }
+
+.services h1
+{
+    text-align: center;
+}
+
+.services .para
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.services-cards .cards
+{
+   /* border: red 2px solid; */
+    height: 251px;
+    width: 307px;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 40px 20px rgba(128, 128, 128, 0.137);
+    position: relative;
+    transition: background-color 3s;
+
+
+}
+.services-cards .cards
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+
+.cards .card-content i
+{
+    font-size: 30px;
+    height: 75px;
+    width: 75px;
+    padding: 20px;
+    border-radius: 100%;
+    color: white;
+    background-color: #3498db;
+}
+.cards .card-content h3
+{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+ .services-cards .cards:hover i
+{
+     background-color: white;
+    color: #3498db;
+
+}
+
+.div-hover
+{
+    background-color: rgba(25, 152, 219, .679);
+    height: 50px;
+    width: 55px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 0px 10px 0px 50px ;
+    transition: all 0.5s;
+}
+
+.services-cards .cards:hover .div-hover
+{
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+    
+}
+
+.services-cards .cards:hover
+{
+    background-color: #19a1f0af;
+    
+}
+
+.fa-dribbble
+{
+    border-radius: 100%;
+    background-color: white;
+    
+}
+
+/* services ends */
+
+
+ /* read more starts */
+
+.read-more
+{
+    margin: 40px;
+}
+
+
+.bg1
+{
+    background-image: url(https://bootstrapmade.com/demo/templates/Vesperr/assets/img/more-services-1.jpg);
+}
+
+.bg2
+{
+    background-image: url(https://bootstrapmade.com/demo/templates/Vesperr/assets/img/more-services-2.jpg);
+}
+
+.bg3
+{
+    background-image: url(https://bootstrapmade.com/demo/templates/Vesperr/assets/img/more-services-3.jpg); 
+}
+
+.bg4
+{
+    background-image: url(https://bootstrapmade.com/demo/templates/Vesperr/assets/img/more-services-4.jpg);
+}
+
+.read-more-images
+{
+    height: 317px;
+    width: 609px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-left: 60px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+.read-more-content
+{
+    text-align: center;
+    padding: 10px;
+    margin: 140px 0px;
+}
+
+.read-more-content
+{
+    background: rgba(255, 255, 255, 0.9);
+    
+    padding: 15px 30px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+ 
+    margin-left: 18px;
+    border-radius: 5px;
+    width: 578px;
+    height: 127px;
+}
+
+.read-more-content:hover
+{
+    background-color: rgb(68, 170, 233);
+    transition: 0.3s;
+    color: white;
+}
+
+
+ /* read more ends */
+
+ /* features starts */
+
+.features
+{
+ text-align: center;
+
+}
+
+
+
+.features-link i
+{
+ 
+     font-size: 32px;
+     padding-right: 10px;   
+}
+
+
+ .features-link
+ {
+    /* border: 2px solid red; */
+    width: 307px;
+    height: 75px;
+    margin: 29px;
+    background-color:#f6f6f6;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.features-link a
+{
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    color: #444444;
+    font-size: 16px;
+    font-weight: 700px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.features-link:hover
+{
+    background-color: #018fee23;
+    transition-duration: 1s;
+}
+
+
+ /* features ends */
+
+
+ /* portfolio starts */
+
+
+
+ .portfolio
+ {
+     text-align: center;
+     margin-top: 50px;
+ }
+
+ .portfolio p
+ {
+     text-align: center;
+     margin-top: 15px;
+ }
+
+ .portfolio-button .pb
+{
+    display: inline-block;
+    
+      
+}
+
+.portfolio-button
+{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+
+.portfolio-button .pb
+{
+    
+    /* text-decoration-color: black    ; */
+    width: 60px;
+    height: 30px;
+    transition: 0.3s all;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 5px ;
+}
+
+.portfolio-button .pb:hover
+{
+    background: #3498db;
+    color: #fff;
+}
+
+.pb a
+{
+    color: black;
+    text-decoration: none;
+}
+
+/* portfolio ends */
+
+ /* portfolio images starts */
+
+
+ .portfolio-images 
+ {
+    
+    /* border: 2px solid red; */
+    padding: 30px 103px
+ }
+
+.portfolio-images .port-images
+{
+    /* border: red solid 2px; */
+    width: 385px;
+    height: 289px;
+    margin-left: 31px;
+    margin-right: 2px;
+    margin-bottom: 29px;
+    display: inline-block;
+
+
+}
+
+
+.port-images img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* portfolio images ends */
+
+ /* team starts */
+
+ .team
+ {
+     background-color:rgb(247, 251, 254);
+ }
+ 
+ .team
+ {
+     text-align: center;
+     margin: 20px;
+     margin-top: 20px;
+     margin-left: 50px;
+ }
+ 
+ .team p
+ {
+     margin-top: 20px;
+     font-size: 18px;
+ }
+ 
+ .team-img
+ {
+     /* margin: 50px; */
+     margin-left: 108px;
+     
+ }
+ 
+ .team-img-img1
+ {
+ 
+     width: 260px;
+     height: 400px;
+     margin-bottom: 60px;
+     background-repeat: no-repeat;
+     display: inline-block;
+     border-radius: 10px;
+     background-color: white;
+     box-shadow: 1px 1px 5px 5px rgb(255, 251, 251);
+     margin-left: 40px;
+     overflow: hidden;
+     position: relative;
+ }
+ 
+ .team-img-img1 img
+ {
+     width: 100%;
+     height: 78%;
+ }
+ 
+ .tea
+ {
+     background-color:rgb(247, 251, 254);
+ }
+ 
+ .team-img-img1 h2
+ {
+     text-align: center;
+     margin-top: 13px;
+ }
+ 
+ .team-img-img1 p
+ {
+    text-align: center;
+ }
+ 
+  .child
+ {
+     background-color:rgba(255, 255, 255, 0.85);
+     position: absolute;
+     top:278px;
+     width: 100%;
+     visibility: hidden;
+     transition: height 2s;
+     font-size: 30px;
+ }
+ 
+ .team-img-img1:hover .child
+ {
+    visibility:visible;
+    height: 35px;
+ 
+ }
+ 
+ 
+ .child i
+ {
+      
+      margin-left: 40px;
+     font-size: 21px;
+     display: inline-block;
+ }
+
+ /* team ends */
+
+ /* pricing starts */
+
+ .pricing
+ {
+     text-align: center;
+ }
+
+ .pricing h1
+{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.pricing p
+{
+    margin: 15px;
+}
+
+.price-boxes
+{
+    
+    width: 383px;
+    height: 437px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    display: inline-block;
+    
+    
+}
+
+
+.price-boxes h4
+{
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600px;
+    
+}
+
+.price-boxes h4
+{
+    margin: 20px;
+}
+
+.price-boxes ul
+{
+    text-align: center;
+    font-size: 14px;
+}
+
+.price-boxes ul li
+{
+    padding-bottom: 16px;
+     list-style-type: none;
+    
+}
+
+
+li
+{
+    display: list-item;
+}
+
+
+.price-boxes .buy-btn 
+{
+    display: inline-block;
+    padding: 10px 40px 12px 40px;
+    border-radius: 50px;
+    border: 2px solid #3498db;
+    color: #3498db;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+    text-decoration: none;
+    margin-top: 70px;
+    margin-bottom: 20px;
+
+    
+} 
+
+.price-boxes .buy-btn:hover
+{
+    background: #3498db;
+    color: #fff;
+}
+
+
+
+.price-boxes
+{
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: center;
+    border-radius: 9px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #f9f9f9;
+    
+}
+
+.price-boxes  .box-overline
+{
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+/* .price-boxes 
+{
+    border: 2px solid #3498db;
+} */
+
+.box-border
+{
+    border: 2px solid #3498db ;
+}
+
+ /* pricing ends */
+
+  /* Frequently asked questions starts */
+
+ .questions-head
+ {
+     text-align: center;
+     margin-bottom: 58px;
+     font-size: 20px;
+     font-weight: bold;
+     margin-top: 83px;
+    
+ }
+
+.questions-content1 h4
+{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    margin: 0 0 10px 32px;
+    font-family: "Poppins", sans-serif;
+    /* border: solid 2px red; */
+    width: 400px;
+}
+
+.questions-content1 p
+{
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    /* border: red 2px solid; */
+    width: 650px;
+    height: 112px;
+    
+    margin-left: -152px;
+    
+}
+
+.questions-content1 p 
+{
+
+    margin-bottom: 20px;
+    position: relative;
+    left: 755px;
+    bottom: 32px;
+} 
+
+.questions-content1
+{
+    /* border: solid 2px red; */
+
+    margin-left: 103px;
+    width: 225px;
+    height: 90px;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.questions-content  p
+{
+    position: relative;
+    bottom: 40px;
+}
+ 
+
+  /* Frequently asked questions ends */
+
+  /* contact us starts */
+
+  .contact
+  {
+      text-align: center;
+      margin-top:120px;
+      margin-bottom:60px;
+      
+  }
+  
+  .contactus-cnt-1
+  {
+  
+      width: 380px;
+      height: 450px;
+      padding: 20px;
+  }
+  
+  .contactus-cnt-1 p
+  {
+      font-size: 17px;
+        color: rgb(136, 136, 136);
+     
+  }
+  .contactus-cnt-1 h3
+  {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size:28px;
+  }
+  
+  .contactus-cnt-1 i
+  {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid rgb(52, 152, 219);
+    border-radius: 100%;
+    margin-left: 5px;
+    color: rgb(52, 152, 219);
+  }
+
+  .contactus-cnt-1 i:hover
+  {
+    color: white;
+    background-color:rgb(52, 152, 219) ;
+  }
+  .contactus-cnt-2
+  {
+      width: 270px;
+      height: 450px;
+      padding-right: 60px;
+  }
+  
+  .contactus-cnt-2 li
+  {
+      line-height: 28px;
+      font-size: 14px;
+      list-style-type: none;
+      padding: 0 0 10px 42px;
+     
+  }
+  
+  .contactus-cnt-2 i
+  {
+      color:rgb(52, 152, 219) ;
+      font-size: 25px;
+      /* font-weight: bolder; */
+  }
+  
+  .contactus-cnt-3
+  {
+      width: 500px;
+      height: 450px;
+      padding:10px;
+      position: absolute;
+  }
+  
+  .contactus-cnt-3 input
+  {
+      box-shadow: none;
+      font-size: 14px;
+      padding: 10px 15px;
+      width: 510px;
+      margin-bottom: 25px;
+      margin-top: 10px;
+      border: 1px solid rgb(136, 136, 136);
+      outline: none;
+      height: 42px;
+      
+  }
+  
+  .contactus-cnt-3 input:focus
+  {
+     border: 1px solid rgb(52, 152, 219);
+  }
+  
+  .contactus-cnt-3 textarea[placeholder]
+  {
+      padding: 0px;
+      color: rgb(136, 136, 136);
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      outline: none;
+      border: 1px solid rgb(136, 136, 136);
+  }
+  
+  .contactus-cnt-3 textarea[placeholder]:focus
+  {
+      border: 1px solid rgb(52, 152, 219);
+  }
+  
+  .contactus-cnt-3 a button
+  {
+      border-radius: 30px;
+      text-align: center;
+      margin-top: 20px;
+      width: 150px;
+      height: 45px;
+      background-color:rgb(52, 152, 219) ;
+      color: white;
+      outline: none;
+      border: 2px solid rgb(52, 152, 219);
+      font-size: 16px;
+      margin-left: 180px;
+  }
+  
+  .contactus-cnt-3 a button:hover
+  {
+      background-color:rgb(15, 140, 223) ;
+  }
+  
+  .contactus-cnt-1 , .contactus-cnt-2 , .contactus-cnt-3
+  {
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: -20px;
+    margin-left: 20px;
+  }
+
+  /* contact us ends */
